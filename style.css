@@ -3,7 +3,7 @@
 body {
   background-color: #c2c2c2;
   font-family: "Montserrat", sans-serif;
-  background-image: url("IMG_0309.JPG");
+  background-image: url("img/dark-textures.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -17,6 +17,18 @@ body {
   align-self: center;
 }
 
+span {
+  color: red;
+  background-color: rgb(61, 59, 59);
+}
+
+hr {
+  width: 100px;
+  line-height: normal;
+  font-weight: bolder;
+  border-bottom: none;
+}
+
 .container {
   background-color: #fffcf2;
   padding: 80px 80px 80px 80px;
@@ -25,8 +37,9 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 55px;
+  margin-top: 120px;
   box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.08);
+  align-self: center;
 }
 
 h1 {
